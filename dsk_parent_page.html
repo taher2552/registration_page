@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="asset_dsk/css/dsk_register.css" />
+
+    <script src="jquery-3.7.1.min.js"></script>
+
+
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKKzPfrnhLHFG7xMO-snpRQ7ULl91iOQw&libraries=places"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <section class="mob_login_container">
+        <div class="mob_top_logo">
+            <img src="asset_dsk/images/logo.svg" alt="" loading="lazy" width="209" height="86" />
+        </div>
+
+        <div class="mob_login_account_wrapper">
+            <p class="mob_login_authenticate">Details</p>
+        </div>
+
+        <div class="mob_academy_progress">
+            <div class="mob_academy_circle mob_academy_stage">
+                1
+            </div>
+            <div class="mob_academy_line"></div>
+            <div class="mob_academy_circle mob_academy_stage">
+                2
+            </div>
+            <div class="mob_academy_line"></div>
+            <div class="mob_academy_circle mob_academy_stage">
+                3
+            </div>
+
+        </div>
+
+
+        <div class="mob_address_wrapper">
+            <div class="mob_manual_address_input mob_manual_flex_start player_add">
+                <label for="" class="mob_font mob_que">Why are you creating profile? <span>*</span></label>
+                <select name="" class="mob_manual_exp" id="creating_profile">
+                    <option value="">Select Your Answer</option>
+                    <option value="">To learn sport</option>
+                </select>
+            </div>
+
+            
+            <div class="mob_select_wrapper coach_select parent_sport_div">
+                <p class="mob_font coach_head">Select a sport you are interested in <span>*</span></p>
+                <div class="mob_select_sports coach_select_sports">
+                    <select id="sportsSelect3">
+                        <option value="">Select</option>
+                        <option value="football">Football</option>
+                        <option value="basketball">Basketball</option>
+                        <option value="badminton">Badminton</option>
+                        <option value="hockey">Hockey</option>
+                        <option value="MMA">MMA</option>
+                        <option value="golf">Golf</option>
+                        <option value="Tennis">Tennis</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="coach_sport_view" id="selectedSports3"></div>
+
+
+
+            <div class="mob_manual_address_input mob_manual_flex_start mob_space">
+                <label for="" class="mob_font mob_que">Add brief intro about you <span>*</span></label>
+                <textarea name="" id="add_brief" cols="30" rows="10"
+                    placeholder="Describe what you are looking for on BookMyPlayer.com"></textarea>
+            </div>
+
+
+            <div class="mob_login_create_profile">
+                <button>Save</button>
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+</body>
+
+<script src="asset_dsk/js/dsk_parent_sport.js"></script>
+
+
+</html>

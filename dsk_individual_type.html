@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="asset_dsk/images/fav.svg" />
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="asset_dsk/css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="asset_dsk/css/slick-theme.css" />
+  <!-- <link rel="stylesheet" type="text/css" href="asset_dsk/css/desktop-login.css" /> -->
+
+
+  <link rel="stylesheet" href="asset_dsk/css/dsk_register.css">
+</head>
+
+<body>
+
+  <div class="page-account-section">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- left side  -->
+
+        <div class="col-lg-5">
+
+          <section class="mob_login_container" id="individual_container">
+            <div class="mob_top_flex">
+              <img src="asset_dsk/images/logo.svg" alt="" loading="lazy" width="141" height="58">
+            </div>
+        
+            <div class="mob_login_account_wrapper">
+              <p class="mob_login_sign_up">Sign Up As</p>
+              <p class="mob_login_account">Have an account? <span>Login</span></p>
+            </div>
+        
+        
+        
+            <div class="mob_radio_wrapper">
+              <div class="mob_radio_select">
+        
+                <div class="mob_radio_box">
+                  <input type="radio" id="player" name="options" value="player" checked>
+                  <label for="player" class="mob_font">I am a Player</label>
+                </div>
+        
+                <div class="mob_radio_box">
+                  <input type="radio" id="coach" name="options" value="coach">
+                  <label for="coach" class="mob_font">I am a Coach</label>
+                </div>
+        
+                <div class="mob_radio_box">
+                  <input type="radio" id="parent" name="options" value="parent">
+                  <label for="parent" class="mob_font">Parent/User (Non Marketing Profile)</label>
+                </div>
+        
+              </div>
+        
+            </div>
+        
+            <div class="mob_btn_wrapper">
+              <div class="mob_login_create_profile">
+                <button>Save</button>
+              </div>
+            </div>
+        
+        
+          </section>
+        </div>
+
+        <!-- left side ends -->
+
+        <!-- right side  -->
+
+        <div class="col-lg-7 slider-bg">
+          <section class="single-item signup-slider">
+            <div>
+              <h2>create Profile</h2>
+              <span>Showcase Your Service<br />Just use your imagination</span>
+              <img src="asset_dsk/images/profile.png" alt="loading..."  loading="lazy" width="400" height="400"/>
+            </div>
+            <div>
+              <h2>train</h2>
+              <span>
+                Show your training strategies<br />to attract more students
+              </span>
+              <img src="asset_dsk/images/train.png" alt="loading..." loading="lazy" width="400" height="400"  />
+            </div>
+            <div>
+              <h2>monetize</h2>
+              <span>
+                Advertise your Academy profile to<br />various communities
+                across India.
+              </span>
+              <img src="asset_dsk/images/monetize.png" alt="loading..." loading="lazy" width="400" height="400"/>
+            </div>
+          </section>
+        </div>
+
+        <!-- right side ends  -->
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+<script src="asset_dsk/js/dsk_signup.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<!-- BootStrap 5 Script CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="asset_dsk/js/slick.js"></script>
+<script type="text/javascript">
+  $(document).on("ready", function () {
+    $(".single-item").slick({
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      dots: true,
+      arrows: false,
+    });
+  });
+</script>
+
+</html>
